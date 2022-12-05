@@ -106,6 +106,8 @@ return [
                 // ExampleQuery::class,
                 'quest' => App\GraphQL\Queries\Quest\QuestQuery::class,
                 'quests' => App\GraphQL\Queries\Quest\QuestsQuery::class,
+                'product' => App\GraphQL\Queries\Product\ProductQuery::class,
+                'products' => App\GraphQL\Queries\Product\ProductsQuery::class,
                 'category' => App\GraphQL\Queries\Category\CategoryQuery::class,
                 'categories' => App\GraphQL\Queries\Category\CategoriesQuery::class,
             ],
