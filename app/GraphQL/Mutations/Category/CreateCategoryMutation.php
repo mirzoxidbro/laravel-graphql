@@ -9,7 +9,7 @@ use Rebing\GraphQL\Support\Mutation;
 use GraphQL\Type\Definition\Type;
 use Rebing\GraphQL\Support\Facades\GraphQL;
 
-class CreateCategoryMutation extends Mutation
+class   CreateCategoryMutation extends Mutation
 {
     protected $attributes = [
         'name' => 'createCategory',
